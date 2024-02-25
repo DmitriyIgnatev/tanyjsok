@@ -612,7 +612,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /*experience-time*/
