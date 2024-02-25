@@ -314,10 +314,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     width: 30px;
     height: 30px;
     line-height: 28px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about-list-icon ul li a i {
-    margin-left: 6px;
+    margin: 4px 4px 4px 25px;
 }
 /*.ab-list-icon */
 
