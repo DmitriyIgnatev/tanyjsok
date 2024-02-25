@@ -615,6 +615,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     text-transform: capitalize;
 }
 
+@media screen and (max-width:440px) {
+    .isotope .item {
+        max-width: 350px;
+        margin: 10px !important;
+    }
+
+    .certificate-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
 /*experience-time*/
 
 /*main-timeline*/
