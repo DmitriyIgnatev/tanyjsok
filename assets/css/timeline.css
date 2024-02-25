@@ -1,0 +1,22 @@
+.element-animation {
+    opacity: 0;
+    height: 100%;
+  }
+  
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%);
+}
+
+.left{
+    transform: translateX(-50px);
+}
+
+.right{
+    transform: translateX(50px);
+}
+
+.down{
+    transform: translateY(50px);
+}
